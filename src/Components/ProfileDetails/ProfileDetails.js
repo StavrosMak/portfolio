@@ -26,7 +26,7 @@ const educationItems = [
   },
   {
     period: '2018',
-    title: 'Accrued English Degree',
+    title: 'Accured English Degree',
     description: 'Aliveri, Greece',
   },
 ];
