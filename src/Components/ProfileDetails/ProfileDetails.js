@@ -16,7 +16,7 @@ const educationItems = [
   },
   {
     period: 'October 2021 - December 2021',
-    title: 'HELLENIC STATISTICAL AUTHORITY',
+    title: 'Hellenic Statistical Authority',
     description: 'Census Employee',
   },
   {
