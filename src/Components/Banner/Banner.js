@@ -22,7 +22,7 @@ export default function Banner() {
                     <p>
                         I'm a 21-year-old student at the University of West Attica,
                         immersed in a 5-year bachelor's and master's degree program
-                        in Informatics and Computer Engineering and I'm passionate
+                        in Informatics and Computer Engineering.and I'm passionate
                         about web development
                     </p>
                     <div className="SocialIcons">

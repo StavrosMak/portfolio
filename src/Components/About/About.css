@@ -48,6 +48,7 @@
     .About {
         height: auto;
     }
+
     .aboutIcon{
         width: 200px;
     }
@@ -56,7 +57,8 @@
     }
 
     .aboutContent {
-        padding: 0;
+        padding: 10px;
+        text-align: center;
         flex-direction: column;
     }
 }

@@ -9,7 +9,7 @@ import ContactForm from './Components/ContactForm/ContactForm';
 import ProfileDetails from './Components/ProfileDetails/ProfileDetails';
 import Footer from './Components/Footer/Footer';
 import LoadingPage from './Components/LoadingPage/LoadingPage';
-
+import { motion } from 'framer-motion';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -28,7 +28,11 @@ function App() {
       {isLoading ? (
         <LoadingPage />
       ) : (
-        <>
+        <motion.div
+        initial={{ opacity: 0  }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        >
           <Navbar />
           <Banner />
           <About />
@@ -37,7 +41,7 @@ function App() {
           <Projects />
           <ContactForm />
           <Footer />
-        </>
+        </motion.div>
       )}
     </div>
   );
