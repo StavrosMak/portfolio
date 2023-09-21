@@ -1,0 +1,83 @@
+.Skills {
+    padding: 200px 0;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: none;
+    transition: height 0.3 ease;
+    background-color: #22282f;
+
+
+}
+
+.Skills h3 {
+    font-size: 24px;
+    color: #13bbff;
+}
+
+.SkillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 950px;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.SkillItem {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #37474f;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.SkillItem img {
+    border-radius: 20%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.SkillItem span {
+    display: block;
+    font-weight: bold;
+}
+
+.SkillItem:hover {
+    background-color: #2196F3;
+}
+
+.SkillItem:hover img {
+    transform: scale(1.2);
+}
+
+.SeeMoreButton {
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.SkillsContainer.show-all {
+  max-height: auto;
+  overflow: visible;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .SkillsContainer.show-all {
+    max-height: none;
+    overflow: visible;
+  }
+}

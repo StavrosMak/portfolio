@@ -1,0 +1,60 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #svg {
+    height: 150px;
+    width: 150px;
+    stroke: white;
+    fill-opacity: 0;
+    stroke-width: 3px;
+    stroke-dasharray: 4500;
+    animation: draw 10s ease;
+  }
+  
+  .loading-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #034c6b, #203a43, #0f2027);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loading-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+    background-image: linear-gradient(to bottom, #7edaff, #0a8fb8);
+    background-clip: text;
+    animation: fadeIn 1s ease forwards;
+    color: transparent;
+  }
+  
+  @keyframes draw {
+    0% {
+      stroke-dashoffset: 4500;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  

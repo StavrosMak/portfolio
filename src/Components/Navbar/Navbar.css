@@ -1,0 +1,98 @@
+.Navbar {
+    position: fixed; /* Set the navbar to a fixed position */
+    top: 0; /* Place it at the top of the viewport */
+    left: 0;
+    right: 0;
+    display: flex;
+    margin-top:20em 0;
+    max-width: 2500px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B1F24;
+    color: #fff;
+    height: 80px;
+    padding: 0 20px;
+    font-size: 20px;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Your other CSS styles can remain the same */
+
+
+.rightSideNav {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.leftSideNav {
+    background-color: #1B1F24;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden; /* Add this line to hide overflowing content */
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin: 0; /* Reset margin to prevent unwanted spacing */
+}
+
+.navLinks li {
+    margin: 0.5em 0;
+}
+
+.navLinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fas {
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .leftSideNav {
+        max-height: 100%;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Navbar {
+        flex-direction: column;
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .fas {
+        display: block;
+    }
+
+    .rightSideNav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .leftSideNav.active {
+        max-height: 1000px;
+        opacity: 1;
+    }
+
+    .navLinks {
+        background-color: #1B1F24;
+        position: absolute;
+        text-align: center;
+        flex-direction: column;
+        width: 100%; /* Make the navLinks take up the full width */
+        top: 50px; /* Add space below the Navbar */
+        left: 0;
+        padding: 20px; /* Adjust padding as needed */
+        box-sizing: border-box; /* Include padding in width calculations */
+    }
+}
