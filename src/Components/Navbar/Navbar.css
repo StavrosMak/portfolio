@@ -5,7 +5,7 @@
     right: 0;
     display: flex;
     margin-top:20em 0;
-    max-width: 2500px;
+    /* max-width: 2500px; */
     margin: auto;
     justify-content: space-between;
     align-items: center;
