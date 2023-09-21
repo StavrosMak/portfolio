@@ -48,5 +48,6 @@
 @media screen and (max-width:768px){
     .ProfileDetailsContent{
         flex-direction: column;
+        padding: 0 10px;
     }
 }

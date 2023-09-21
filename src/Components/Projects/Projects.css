@@ -123,9 +123,26 @@
 
  @media screen and (max-width:768px) {
 
+    .Projects{
+        padding: 0 30px;
+    }
+
+    .project-languages{
+        padding: 10px;
+
+    }
+
+    .buttons a{
+        padding:8px;
+    }
+
     .project-card{
         margin:0;
         padding: 0;
+        width: 100%;
+    }
+    .project-card img{
+        width: 100%;
     }
 
     .projectContent{
