@@ -45,6 +45,7 @@ export default function Projects() {
             title: 'Italian Restaurant',
             imageUrl: 'project6.png',
             presentationDemoLink: '',
+            liveDemoLink: 'https://stavrosmak.github.io/italian_restaurant/index',
             codeLink: 'https://github.com/StavrosMak/Economic_Analytics_Hub',
             languages: ['ReactJS', 'CSS', 'MaterialUI', 'Template'],
         },
