@@ -35,16 +35,9 @@
         "height": 40
     },
     {
-        "url": "https://azure.microsoft.com/en-in/",
-        "imgSrc": "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
-        "alt": "azure",
-        "width": 40,
-        "height": 40
-    },
-    {
-        "url": "https://www.w3schools.com/cpp/",
-        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
-        "alt": "cplusplus",
+        "url": "https://en.wikipedia.org/wiki/GitHub",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png",
+        "alt": "Github",
         "width": 40,
         "height": 40
     },
@@ -62,6 +55,35 @@
         "width": 40,
         "height": 40
     },
+    {
+        "url": "https://mui.com/",
+        "imgSrc": "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MaterialUI-Dark.svg",
+        "alt": "MaterialUI",
+        "width": 40,
+        "height": 40
+    },
+    {
+        "url": "https://www.w3schools.com/css/",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+        "alt": "CSS",
+        "width": 40,
+        "height": 40
+    },
+    {
+        "url": "https://azure.microsoft.com/en-in/",
+        "imgSrc": "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
+        "alt": "azure",
+        "width": 40,
+        "height": 40
+    },
+    {
+        "url": "https://www.w3schools.com/cpp/",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+        "alt": "cplusplus",
+        "width": 40,
+        "height": 40
+    },
+  
     {
         "url": "https://www.w3.org/html/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
