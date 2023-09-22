@@ -1,18 +1,15 @@
+import React, { useState } from "react";
 import { TextField, Button, Typography, Box } from "@mui/material";
 import { motion } from "framer-motion";
-import emailjs from '@emailjs/browser';
-import { ThreeDots } from 'react-loader-spinner';
+import emailjs from "@emailjs/browser";
+import { ThreeDots } from "react-loader-spinner";
 
-import { useState } from "react";
 export default function ContactForm() {
-
   const [isLoading, setIsLoading] = useState(false);
- 
-
+  const [submissionStatusMessage, setSubmissionStatusMessage] = useState(null); 
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    // Define your email service, template, and public key here
     const serviceId = process.env.REACT_APP_SERVICE_ID;
     const templateId = process.env.REACT_APP_TEMPLATE_ID;
     const userId = process.env.REACT_APP_USER_ID;
@@ -28,14 +25,17 @@ export default function ContactForm() {
     emailjs
       .send(serviceId, templateId, templateParams, userId)
       .then((response) => {
-        console.log("Email sent successfully:", response);
-        // Reset form fields here if needed
-        window.scrollTo(0, 0);
         e.target.reset();
+        setIsLoading(false);
+        setSubmissionStatusMessage("Email sent successfully!"); 
+        setTimeout(() => {
+          setSubmissionStatusMessage(null); 
+          window.scrollTo(0, 0);
+        }, 1500);
       })
       .catch((error) => {
         console.error("Email sending failed:", error);
-      }).finally(() => {
+        setSubmissionStatusMessage("Email sending failed. Please try again."); 
         setIsLoading(false);
       });
   };
@@ -49,15 +49,32 @@ export default function ContactForm() {
       <Box
         id="contact"
         sx={{
-
           display: "flex",
+          flexDirection: "column",  
           alignItems: "center",
           justifyContent: "center",
-          height: "700px",
+          margin:'200px 0',
+          minHeight: "700px", // Set minimum height to cover the entire viewport
           backgroundColor: "#22282f",
-          margin: "100px 0",
         }}
       >
+        {submissionStatusMessage && ( // Render submission status message if it's available
+          <div
+            style={{
+              position: "fixed",
+              top: 0,
+              left: 0,
+              right: 0,
+              backgroundColor: "#4CAF50",
+              color: "#fff",
+              textAlign: "center",
+              padding: "10px",
+              zIndex: 9999,
+            }}
+          >
+            {submissionStatusMessage}
+          </div>
+        )}
         <Box
           sx={{
             display: "flex",
@@ -74,7 +91,7 @@ export default function ContactForm() {
           <Typography variant="h4" align="center" mb={2}>
             Contact
           </Typography>
-          <form onSubmit={handleSubmit} style={{ color: '#fff' }}>
+          <form onSubmit={handleSubmit} style={{ color: "#fff" }}>
             <TextField
               fullWidth
               InputLabelProps={{ style: { color: 'white' } }}

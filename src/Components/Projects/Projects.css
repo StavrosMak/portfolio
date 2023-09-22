@@ -1,5 +1,4 @@
 .Projects {
-    /* background-color: #22282f; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,8 +14,8 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 20px;
-    max-width:420px;
-    /* width: 100%; */
+    max-width: 420px;
+    width: 100%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -24,19 +23,18 @@
     text-align: center;
     overflow: hidden;
     transform: scale(1);
-    /* transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
 .project-card:hover {
-    transform: scale(1.05); /* Scale up to 105% on hover */
-    box-shadow: 0 15px 30px rgba(10, 10, 10, 0.9); /* Increase the shadow on hover */
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(10, 10, 10, 0.9);
 }
 
- 
+
 .project-card img {
     max-width: 350px;
     height: auto;
-    /* margin-bottom: 20px; */
     border-radius: 10px;
     animation: float 4s ease-in-out infinite;
 }
@@ -57,22 +55,21 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-     margin: 20px 0;
-    /* background-color: red; */
+    margin: 20px 0;
 }
 
 .project-info h2 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .project-languages {
-    height: 50px;
-    width: 100%;
+    height: 60px;
+    max-width: 24em;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .language-label {
@@ -88,6 +85,7 @@
 .buttons {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .buttons a {
@@ -108,7 +106,6 @@
 
 .ProjectsHeader {
     margin: 1em 0;
-    border-bottom: 1px solid #13bbff;
     width: max-content;
 }
 
@@ -116,39 +113,40 @@
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 1900px;
     margin: auto;
 }
 
- @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
 
-    .Projects{
+    .Projects {
         padding: 0 30px;
     }
 
-    .project-languages{
+    .project-languages {
         padding: 10px;
 
     }
 
-    .buttons a{
-        padding:8px;
+    .buttons a {
+        padding: 8px;
     }
 
-    .project-card{
-        margin:0;
+    .project-card {
+        margin: 0;
         padding: 0;
         width: 100%;
     }
-    .project-card img{
+
+    .project-card img {
         width: 100%;
     }
 
-    .projectContent{
+    .projectContent {
         gap: 2em;
         padding: 0;
         margin: 0;
     }
-    
- }
+
+}
