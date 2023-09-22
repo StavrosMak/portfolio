@@ -7,16 +7,15 @@ import { useState } from "react";
 export default function ContactForm() {
 
   const [isLoading, setIsLoading] = useState(false);
-
-
+ 
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
     // Define your email service, template, and public key here
-    const serviceId = "service_rfptbms";
-    const templateId = "template_v59h6gp";
-    const userId = "WBYxSTRafwRb9h9FM";
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    const userId = process.env.REACT_APP_USER_ID;
 
     const formData = new FormData(e.target);
     const templateParams = {
