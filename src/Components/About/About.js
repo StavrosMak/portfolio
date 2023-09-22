@@ -15,9 +15,9 @@ export default function About() {
                     <h3>Learn more about me</h3>
 
                     <p>
-                        I'm a 21-year-old student in my fourth year at the University of West Attica,
-                        where I'm studying for a 5-year bachelor's degree program that includes a master's degree.
-                        I live in Athens, and I really love making user-friendly websites and making them look great.
+                        I'm a 21-year-old student at the University of West Attica, currently in my fourth year of
+                        a 5-year bachelor's degree program that includes a master's degree.
+                        I live in Athens, and I really love making user-friendly websites.
                         I always try to learn about the newest technology and design ideas to make websites look as good as possible.
                         I'm eager to learn more and get better in this field, so I'm always happy to find new chances to learn and grow.
 
