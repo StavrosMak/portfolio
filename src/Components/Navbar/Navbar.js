@@ -1,6 +1,7 @@
 import './Navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import { useState } from 'react';
+import { useImperativeHandle, useState } from 'react';
+
 
 export default function Navbar() {
   // State for managing the menu icon and whether the menu is open or not
