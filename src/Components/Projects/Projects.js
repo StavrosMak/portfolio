@@ -16,7 +16,7 @@ export default function Projects() {
             imageUrl: 'project1.png',
             presentationDemoLink: 'https://www.linkedin.com/posts/stavros-makrygiannis-b1691b256_unq-react-ecommerce-activity-7090254613571919873-0SuY?utm_source=share&utm_medium=member_desktop',
             liveDemoLink: 'https://stavrosmak.github.io/UnQ_eshop/',
-            codeLink: 'https://github.com/https://github.com/StavrosMak/UnQ_eshop/project1',
+            codeLink: 'https://github.com/StavrosMak/UnQ_eshop',
             languages: ['ReactJS', 'CSS', 'MaterialUI','API'],
         },
         {
@@ -36,25 +36,25 @@ export default function Projects() {
             languages: ['ReactJS', 'CSS', 'RechartsJS', 'MaterialUI', 'Template'],
         },
         {
+            title: 'Italian Restaurant',
+            imageUrl: 'project6.png',
+            presentationDemoLink: '',
+            liveDemoLink: 'https://stavrosmak.github.io/italian_restaurant/index',
+            codeLink: 'https://github.com/StavrosMak/italian_restaurant',
+            languages: ['ReactJS', 'CSS', 'MaterialUI', 'Template'],
+        },
+        {
             title: 'Portfolio',
             imageUrl: 'project5.png',
             codeLink: 'https://github.com/StavrosMak/portfolio',
             languages: ['ReactJS', 'CSS', 'MaterialUI', 'Framer Motion', 'EmailJS', 'API'],
         },
         {
-            title: 'Italian Restaurant',
-            imageUrl: 'project6.png',
-            presentationDemoLink: '',
-            liveDemoLink: 'https://stavrosmak.github.io/italian_restaurant/index',
-            codeLink: 'https://github.com/StavrosMak/Economic_Analytics_Hub',
-            languages: ['ReactJS', 'CSS', 'MaterialUI', 'Template'],
-        },
-        {
             title: 'Dog Lover',
             imageUrl: 'project7.png',
             presentationDemoLink: '',
             liveDemoLink: '',
-            codeLink: 'https://github.com/StavrosMak/Economic_Analytics_Hub',
+            codeLink: 'https://github.com/StavrosMak/react-challenge-dog_lover/tree/master',
             languages: ['ReactJS Challenge', 'ReactJS', 'CSS', 'MaterialUI', 'Template', 'API', 'Challenge'],
         },
         {
@@ -62,7 +62,7 @@ export default function Projects() {
             imageUrl: 'project8.png',
             presentationDemoLink: '',
             liveDemoLink: '',
-            codeLink: 'https://github.com/StavrosMak/react-challenge-dog_lover/tree/master',
+            codeLink: 'https://github.com/StavrosMak/CurrencyConverter-ReactJS_Typescript',
             languages: ['Typescript', 'ReactJS Challenge', 'MaterialUI', 'Template', 'Challenge'],
         },
 
