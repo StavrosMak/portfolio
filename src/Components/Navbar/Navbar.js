@@ -1,19 +1,15 @@
 import './Navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import { useImperativeHandle, useState } from 'react';
+import { useState } from 'react';
 
 
 export default function Navbar() {
-  // State for managing the menu icon and whether the menu is open or not
   const [navbarIcon, setNavbarIcon] = useState("fas fa-bars");
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Function to toggle the menu and its animations
   const toggleMenu = () => {
-    // Toggle the menu icon between 'fas fa-bars' and 'fas fa-times'
     setNavbarIcon(prevIcon => (prevIcon === "fas fa-bars" ? "fas fa-times" : "fas fa-bars"));
 
-    // Toggle the menu open/close state
     setMenuOpen(!menuOpen);
   };
 
@@ -24,10 +20,8 @@ export default function Navbar() {
         <i className={`fas ${navbarIcon}`} onClick={toggleMenu}></i>
       </div>
 
-      <div
-        className={`leftSideNav ${menuOpen ? 'active' : ''}`}
-      >
-        <ul className='navLinks'>
+      <div className={`leftSideNav ${menuOpen ? 'active' : ''}`}>
+        <ul className={`navLinks ${menuOpen ? 'active' : ''}`}>
           <li><Link to='/portfolio/#' onClick={toggleMenu} smooth>Home</Link></li>
           <li><Link to='/portfolio/#about' onClick={toggleMenu} smooth>About</Link></li>
           <li><Link to='/portfolio/#skills' onClick={toggleMenu} smooth>Skills</Link></li>
