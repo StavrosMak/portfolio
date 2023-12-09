@@ -67,8 +67,11 @@
   cursor: pointer;
   border-radius: 5px;
   margin-top: 20px;
+  transition: background-color 0.3s ease;
 }
-
+.SeeMoreButton:hover{
+  background-color: #005c9f;
+}
 .SkillsContainer.show-all {
   max-height: auto;
   overflow: visible;

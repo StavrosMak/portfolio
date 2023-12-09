@@ -12,7 +12,6 @@
 .aboutContent h3 {
     text-align: center;
     width: 100%;
-    /* background-color: red; */
     padding: 1em;
     color: cyan;
     color: #13bbff;
@@ -42,7 +41,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
 
 
     .About {

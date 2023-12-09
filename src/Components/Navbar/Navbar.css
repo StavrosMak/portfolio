@@ -72,7 +72,7 @@
     display: none;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) { 
     .leftSideNav {
         max-height: 100%;
         opacity: 1;

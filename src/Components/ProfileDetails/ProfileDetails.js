@@ -7,7 +7,11 @@ const educationItems = [
     period: '2020 - present',
     title: 'Informatics and Computer Engineering',
     description: '5-year integrated bachelor’s & master’s degree - University of West Attica',
-    // description: '',
+  },
+  {
+    period: 'November 2023 - present',
+    title: 'Prime Educational Software',
+    description: 'Frontend Developer',
   },
   {
     period: 'October 2022',

@@ -5,7 +5,11 @@
     align-items: center;
     color: #13bbff;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
+
 }
+
 
 .project-card {
     background-color: #1E1E1E;
@@ -88,7 +92,8 @@
     justify-content: center;
 }
 
-.buttons a {
+.buttons a,
+.buttons button {
     text-decoration: none;
     color: #fff;
     background-color: #007acc;
@@ -98,7 +103,7 @@
     transition: background-color 0.3s ease;
 }
 
-.buttons a:hover {
+.buttons button:hover {
     background-color: #005c9f;
 }
 
@@ -155,3 +160,4 @@
     }
 
 }
+
