@@ -35,6 +35,7 @@ export default function Modal({ closeModal, project }) {
         // Cleanup: Reset the overflow property when the component is unmounted
         return () => {
             document.body.style.overflow = 'auto';
+
         };
     }, [showPopup]);
 

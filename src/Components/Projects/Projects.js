@@ -16,10 +16,10 @@ export default function Projects() {
     const openModal = (project) => {
         setSelectedProject(project);
         setIsModalOpen(true);
-        // JavaScript code to open the modal
-        // const projectsContainer = document.querySelectorAll('.project-card');
-        // projectsContainer.style.backgroundColor='red'; 
-        
+
+
+        // document.querySelector('.Projects').style.zIndex=99999;
+ 
 
         setTimeout(() => {
             const TopOfProjects = document.querySelector('.Projects');
@@ -34,6 +34,7 @@ export default function Projects() {
         setIsModalOpen(false);
         const projectsContainer = document.querySelector('.Projects');
         projectsContainer.classList.remove('over');
+        document.querySelector('.Projects').style.zIndex=1;
     };
 
 
@@ -72,6 +73,7 @@ export default function Projects() {
             </div>
             <AnimatePresence>
                 {isModalOpen && <Modal key={isModalOpen} project={selectedProject} closeModal={closeModal} />}
+              
             </AnimatePresence>
         </div>
     );

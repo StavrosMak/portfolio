@@ -176,6 +176,7 @@
         margin: 0;
         min-height: 1410px;
         width: 100vw;
+
      }
  
    
@@ -206,23 +207,28 @@
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.9);
+
     width: 100%;
     display: flex;
     align-items: center;
     padding: 10px;
     justify-content: center;
     height: 100%;
+    z-index: 9999;
 }
 
 .popUpContent {
     width: 100%;
+    z-index: 9999;
+
 }
 
 .popupImg {
     width: 60%;
-    position: relative;
+     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
+    
 }
 
 @media screen and (max-width:900px){
@@ -248,5 +254,7 @@
 }
 
 .popupImg { /*Child*/
+    
     cursor:auto;
+ 
 }

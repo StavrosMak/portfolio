@@ -1,13 +1,19 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function PopupImg({ imgPath, currentImage, onClose }) {
     
     const handleImageClick = (event) => {
+ 
          event.stopPropagation();
     };
  
- 
+    useEffect(() => {
+        document.querySelector('.Navbar').style.display="none";
+        return () => {
+          document.querySelector('.Navbar').style.display = "flex"; 
+        };
+      }, []);
 
     return (
         <div className='popUp' onClick={onClose}>
