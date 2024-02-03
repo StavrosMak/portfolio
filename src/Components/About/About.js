@@ -15,12 +15,19 @@ export default function About() {
                     <h3>Learn more about me</h3>
 
                     <p>
-                        I'm a 21-year-old student at the University of West Attica, currently in my fourth year of
-                        a 5-year bachelor's degree program that includes a master's degree.
-                        I live in Athens, and I really love making user-friendly websites.
-                        I always try to learn about the newest technology and design ideas to make websites look as good as possible.
-                        I'm eager to learn more and get better in this field, so I'm always happy to find new chances to learn and grow.
+                    Hey there! 👋     
+                    I'm Stavros, a 21-year-old student in my fourth year at the University of West Attica.
+                    I'm on a 5-year journey for a bachelor's and master's degree in Informatics and Computer Engineering and also work as a frontend developer in Athens.
+                    Passionate about creating cool and user-friendly websites, I've been actively working as a frontend developer, using the latest tech and cool design to make websites truly awesome.
+                    Being part of various projects has been a fantastic learning experience, where I don't just build websites; 
+                    I make experiences come to life. Eager to learn and grow in this field,
+                    I'm always on the lookout for new opportunities to enhance my skills and create even more exciting experiences.
+                    <br></br>
+                    Scroll down to check out some of the personal projects I've been working on!
 
+                 
+ 
+                       
                     </p>
                 </motion.div>
             </div>

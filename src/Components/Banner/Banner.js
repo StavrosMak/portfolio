@@ -20,10 +20,9 @@ export default function Banner() {
                     <h1>Hello, I'm Stavros Makrygiannis.</h1>
                     <h3><Typewriter words={['Frontend Developer']} loop cursor typeSpeed={120} deleteSpeed={80} /></h3>
                     <p>
-                        I'm a 21-year-old student at the University of West Attica,
-                        immersed in a 5-year bachelor's and master's degree program
-                        in Informatics and Computer Engineering and I'm passionate
-                        about web development
+                    I'm a 21-year-old student at the University of West Attica. 
+                    I'm on the ride of a 5-year bachelor's and master's degree program in Informatics and Computer Engineering, and my journey has taken an exciting turn into the world of web development.
+                    Currently, I'm working as a frontend developer, driven by passion for web development and bringing websites to life.
                     </p>
                     <div className="SocialIcons">
                         <a href="https://www.linkedin.com/in/stavros-makrygiannis-b1691b256" target="_blank" rel="noopener noreferrer">
