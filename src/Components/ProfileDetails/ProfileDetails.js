@@ -4,12 +4,17 @@ import './ProfileDetails.css';
 
 const educationItems = [
   {
+    period: 'November 2024 - present',
+    title: 'Military Service',
+    description: 'Currently completing my compulsory Military Service',
+  },
+  {
     period: '2020 - present',
     title: 'Informatics and Computer Engineering',
     description: '5-year integrated bachelor’s & master’s degree - University of West Attica',
   },
   {
-    period: 'November 2023 - present',
+    period: 'November 2023 - November 2024',
     title: 'Prime Educational Software',
     description: 'Frontend Developer',
   },
