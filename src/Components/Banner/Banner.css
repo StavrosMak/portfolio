@@ -58,6 +58,7 @@
  .BannerText {
      max-width: 900px;
      display: flex;
+     flex:1;
      flex-direction: column;
  }
 
@@ -65,6 +66,8 @@
      width: 100%;
      max-width: 400px;
      text-align: center;
+     flex:1;
+
  }
 
  .BannerIcon img {
@@ -141,6 +144,18 @@
      background-color: black;
      color: #ffffff;
  }
+
+ #scrollDesc{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+#scrollDesc a{
+    text-decoration: none !important;
+    color: #a0e1f5;
+}
 
 
  @media screen and (max-width:768px) {

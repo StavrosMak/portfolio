@@ -10,6 +10,17 @@
 
 }
 
+#newProject{
+    position: relative;
+    left: -27px;
+    align-self: start;
+    top: -217px;
+    transform: rotateZ(320deg);
+    color: #13bbff;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 21px;
+}
 
 .project-card {
     background-color: #1E1E1E;
@@ -124,12 +135,14 @@
 
 }
 
+ 
+
 @media screen and (max-width:768px) {
 
     .Projects {
         padding: 0 30px;
     }
-
+  
     .project-languages {
         padding: 0 10px;
         justify-content: center;
@@ -162,3 +175,11 @@
 
 }
 
+
+@media screen and (max-width:390px) {
+    #newProject {
+        left: -10px;
+        align-self: start;
+        top: -202px;
+    }
+}

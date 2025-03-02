@@ -9,7 +9,7 @@ const educationItems = [
     description: 'Currently completing my compulsory Military Service',
   },
   {
-    period: '2020 - present',
+    period: 'September 2020 - present',
     title: 'Informatics and Computer Engineering',
     description: '5-year integrated bachelor’s & master’s degree - University of West Attica',
   },

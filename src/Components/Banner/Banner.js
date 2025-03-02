@@ -18,11 +18,22 @@ export default function Banner() {
                     className={`BannerText`}
                 >
                     <h1>Hello, I'm Stavros Makrygiannis.</h1>
-                    <h3><Typewriter words={['Frontend Developer']} loop cursor typeSpeed={120} deleteSpeed={80} /></h3>
+                    <h3><Typewriter words={['Frontend Developer | Informatics & Computer Engineering Student']} loop cursor typeSpeed={50} deleteSpeed={130} /></h3>
+                    {/* <h3><Typewriter words={['Frontend Developer']} loop cursor typeSpeed={120} deleteSpeed={80} /></h3> */}
+
                     <p>
-                    I'm a 21-year-old student at the University of West Attica. 
+                    {/* I'm a 21-year-old student at the University of West Attica. 
                     I'm on the ride of a 5-year bachelor's and master's degree program in Informatics and Computer Engineering, and my journey has taken an exciting turn into the world of web development.
-                    Currently, I'm working as a frontend developer, driven by passion for web development and bringing websites to life.
+                    Currently, I'm working as a frontend developer, driven by passion for web development and bringing websites to life. */}
+
+
+                    {/* I specialize in creating responsive, user-centric web applications that seamlessly blend aesthetic design with advanced functionality. Currently completing my bachelor’s and integrated master’s degree at the University of West Attica, I am driven by a passion for developing innovative digital solutions. With hands-on experience in modern frontend technologies, I aim to continue refining my skills and contribute to impactful projects. */}
+                    Passionate about crafting responsive, user-friendly web experiences. Currently completing my bachelor’s and master’s degree at the University of West Attica, I specialize in combining design and functionality to create innovative digital solutions.
+
+                    <br></br>
+                    <br></br>
+
+                    <span id='scrollDesc'><Link to='/portfolio/#about' smooth>Scroll down to explore more!</Link></span>
                     </p>
                     <div className="SocialIcons">
                         <a href="https://www.linkedin.com/in/stavros-makrygiannis-b1691b256" target="_blank" rel="noopener noreferrer">
