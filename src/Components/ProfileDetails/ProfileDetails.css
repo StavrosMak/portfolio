@@ -12,7 +12,11 @@
 
 .ProfileDetails h3 {
     color: #13bbff;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.1rem;
+}
+.ProfileDetails > h3{
+    font-size: 1.4rem;
 }
 
 

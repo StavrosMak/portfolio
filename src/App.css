@@ -20,3 +20,6 @@ button {
   min-height: 100vh;
 }
 
+.sectionHeader{
+  font-size: 1.45rem !important;
+}

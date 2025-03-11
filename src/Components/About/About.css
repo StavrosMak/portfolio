@@ -32,6 +32,7 @@
     max-width: 850px;
     width: 100%;
     margin: auto;
+    font-size: 1.3rem;
 }
 
 .aboutIcon {
@@ -59,5 +60,8 @@
         padding: 10px;
         text-align: center;
         flex-direction: column;
+    }
+    .aboutText p , .Banner p {
+        font-size: 1rem;
     }
 }

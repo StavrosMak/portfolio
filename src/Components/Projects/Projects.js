@@ -70,7 +70,7 @@ export default function Projects() {
 
     return (
         <div className="Projects" id='projects'>
-            <h2 className='ProjectsHeader'>Projects</h2>
+            <h2 className='ProjectsHeader sectionHeader'>Projects</h2>
             <div className='projectContent'>
                 {projectCards}
             </div>

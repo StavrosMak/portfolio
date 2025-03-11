@@ -61,6 +61,10 @@
      flex:1;
      flex-direction: column;
  }
+ .Banner h1{
+    font-size: 1.3rem;
+
+ }
 
  .BannerIcon {
      width: 100%;

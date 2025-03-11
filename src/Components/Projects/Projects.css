@@ -74,7 +74,8 @@
 }
 
 .project-info h2 {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 1.35rem;
     margin-bottom: 20px;
 }
 

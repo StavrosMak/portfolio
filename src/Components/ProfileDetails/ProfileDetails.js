@@ -43,7 +43,7 @@ const educationItems = [
 export default function ProfileDetails() {
   return (
     <motion.div initial={{ opacity: 0, y: -60 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}  className="ProfileDetails">
-      <h3>Education & Experience</h3>
+      <h3 className='sectionHeader'>Education & Experience</h3>
       <div className="ProfileDetailsContent">
         {educationItems.map((item, index) => (
           <div

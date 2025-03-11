@@ -21,11 +21,11 @@ export default function Skills() {
     };
   }, []);
 
-  const visibleSkills = showAllSkills ? iconData : iconData.slice(0, Math.ceil(iconData.length / 2 + 1));
+  const visibleSkills = showAllSkills ? iconData : iconData.slice(0, Math.ceil(iconData.length / 2 + 2));
 
   return (
     <div className="Skills" id="skills">
-      <h3>Skills</h3>
+      <h3 className='sectionHeader'>Skills</h3>
       <div className={`SkillsContainer ${showAllSkills ? 'show-all' : ''}`}>
         {visibleSkills.map((item, index) => (
           <motion.div
