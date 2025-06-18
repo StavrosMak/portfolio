@@ -29,12 +29,15 @@ export default function Banner() {
 
                         {/* I specialize in creating responsive, user-centric web applications that seamlessly blend aesthetic design with advanced functionality. Currently completing my bachelor’s and integrated master’s degree at the University of West Attica, I am driven by a passion for developing innovative digital solutions. With hands-on experience in modern frontend technologies, I aim to continue refining my skills and contribute to impactful projects. */}
                         {/* Passionate about crafting responsive, user-friendly web experiences. Currently completing my bachelor’s and master’s degree at the University of West Attica, I specialize in combining design and functionality to create innovative digital solutions. */}
-                        As a passionate Frontend Developer, I specialize in creating responsive, user-friendly web experiences that blend design with functionality. With hands-on experience in frontend development, 
+                        {/* As a passionate Frontend Developer, I specialize in creating responsive, user-friendly web experiences that blend design with functionality. With hands-on experience in frontend development, 
                         I focus on building visually appealing and intuitive user interfaces. Currently completing my bachelor's degree with an integrated master's at the University of West Attica while finalizing my thesis.
                         I am dedicated to transforming ideas into polished, high-quality web solutions.
                         <br></br>
-                        <br></br>
+                        <br></br> */}
 
+                        I’m a Frontend Developer focused on creating responsive, user-friendly web applications that blend design and functionality. I bring hands-on experience in building intuitive, visually engaging interfaces, with a passion for turning ideas into polished digital experiences.
+                        <br></br>
+                        <br></br>
                         <span id='scrollDesc'><Link to='/portfolio/#about' smooth>Scroll down to explore more!</Link></span>
                     </p>
                     <div className="SocialIcons">

@@ -7,6 +7,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+:root{
+  --primary-bg: #1B1F24;
+  --secondary-bg: #242830;
+  --accent-color: #13bbff;
+  --text-primary: #c2edfd;
+  --text-primary2: #9ecff0;
+  --text-secondary: #8892B0;
+  --transition: all 0.3s ease;
+}
+
 button {
   border: none;
   outline: none;

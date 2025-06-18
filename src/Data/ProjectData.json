@@ -25,7 +25,43 @@
         "projectDescription": "I'm excited to introduce UniFlow Manager, a project management tool built with React that offers a unique and efficient way to manage university tasks and assignments. While it operates similarly to popular tools like Trello, UniFlow Manager stands out by integrating directly with your university account. Using web scraping technology, it automatically pulls course data from your university's website and creates customized boards to track exercises and deadlines. Currently supporting the University of West Attica (Uniwa), this feature will expand to more universities in the future, making it accessible to a wider student community.What truly sets UniFlow Manager apart is its collaboration features. Students can share their boards with others, enabling seamless teamwork on exercises and projects. The collaboration system includes role management, allowing users to be designated as either members or admins, each with specific permissions. This ensures a smooth and organized experience for group work, with admins having the ability to manage tasks, while members contribute to the progress.To further enhance teamwork, each exercise card includes a chat feature, so students can discuss their progress, ask questions, and share updates within the platform. This in-app communication eliminates the need for external chat tools, keeping everything organized in one place.Currently in beta, UniFlow Manager is a work in progress, and I'm actively seeking feedback from users to refine the platform and make it even better. Your input will be invaluable in shaping the tool into a comprehensive solution that fits the needs of students everywhere. While the tool is fully functional, some features are still being fine-tuned, and future updates will continue to improve the experience.Developed entirely by me, UniFlow Manager uses a range of modern technologies to deliver a full-stack experience. The front end is powered by ReactJS, while the back end uses NodeJS and Express for smooth operation. Data is managed using Supabase, and Clerk handles secure user authentication. For a responsive and user-friendly design, I've integrated MaterialUI, and DnD (Drag and Drop) functionality for easy task management. EmailJS ensures that users receive timely reminders and updates.Looking to the future, I plan to continue enhancing the platform by adding support for more universities, refining collaboration features, and improving the overall user experience based on the valuable feedback from the beta phase.",
         "completed": "On going..."
     },
-    
+     {
+        "title": "StackNews",
+        "imageUrl": "project10.png",
+        "imgPath": "StackNews-Images",
+        "imgCount": 1,
+        "presentationDemoLink": null,
+        "liveDemoLink": null,
+        "codeLink": null,
+        "languages": [
+            "Nextjs",
+            "Typescript",
+            "Tailwind",
+            "API",
+            "Cache"
+        ],
+        "projectDescription": "Excited to unveil my inaugural Fullstack Project! 🎉🎉 Introducing an engaging Barbershop website offering customers a comprehensive view of services, shop details, and hassle-free appointment bookings.Throughout the development journey, I honed diverse skills, seamlessly integrating technologies such as React, Node.js, Express, and MySQL. Here's a glimpse of the milestones achieved:🎯 Established robust communication between frontend (React) and backend (Node.js, Express, MySQL).🎯 Expanded backend expertise, mastering operations like post, patch, put, delete, and optimizing data management with MySQL.🎯 Implemented user roles management, crafting distinct screens for users and admins.🎯 Ensured security with cryptographic measures, safeguarding sensitive user information.🎯 Delivered a user-friendly, responsive interface enriched with captivating animations and Material-UI for an enhanced user experience.And that's just the tip of the iceberg! Dive deeper into the project's intricacies through the video and code links below. Your feedback is invaluable – thank you for exploring!",
+        "completed": "January, 2023"
+    },
+      {
+        "title": "TechFrost",
+        "imageUrl": "project14.png",
+        "imgPath": "ProjectBarbershop-Images",
+        "imgCount": 36,
+        "presentationDemoLink":null,
+        "liveDemoLink": "https://frost-tech.vercel.app/",
+        "codeLink": null,
+        "languages": [
+            "NextJS",
+            "Typescript",
+            "Tailwind",
+            "Template",
+            "Greek Edition",
+            "Framer Motion"
+        ],
+        "projectDescription": "Excited to unveil my inaugural Fullstack Project! 🎉🎉 Introducing an engaging Barbershop website offering customers a comprehensive view of services, shop details, and hassle-free appointment bookings.Throughout the development journey, I honed diverse skills, seamlessly integrating technologies such as React, Node.js, Express, and MySQL. Here's a glimpse of the milestones achieved:🎯 Established robust communication between frontend (React) and backend (Node.js, Express, MySQL).🎯 Expanded backend expertise, mastering operations like post, patch, put, delete, and optimizing data management with MySQL.🎯 Implemented user roles management, crafting distinct screens for users and admins.🎯 Ensured security with cryptographic measures, safeguarding sensitive user information.🎯 Delivered a user-friendly, responsive interface enriched with captivating animations and Material-UI for an enhanced user experience.And that's just the tip of the iceberg! Dive deeper into the project's intricacies through the video and code links below. Your feedback is invaluable – thank you for exploring!",
+        "completed": "January, 2023"
+    },
     
     {
         "title": "Barbershop",
@@ -134,6 +170,22 @@
         "completed": "June, 2023"
     },
     {
+        "title": "Hero Of Prime",
+        "imageUrl": "project13.png",
+        "imgPath": "HeroOfPrimeBattleground-Images",
+        "imgCount": 4,
+        "codeLink": "https://github.com/StavrosMak/portfolio",
+        "languages": [
+            "Pure Javascript",
+            "CaseStudy",
+            "CSS",
+            "Javascript",
+            "API"
+        ],
+        "projectDescription": "Check out the code for this website anytime you'd like. Feel free to take a look.",
+        "completed": "June, 2023"
+    },
+     {
         "title": "Dog Lover",
         "imageUrl": "project7.png",
         "imgPath": "DogLover-Images",
@@ -154,6 +206,23 @@
         "completed": "July, 2023"
     },
     {
+        "title": "WeatherApp",
+        "imageUrl": "project11.png",
+        "imgPath": "WeatherApp-Images",
+        "imgCount": 2,
+        "presentationDemoLink": "",
+        "liveDemoLink": "https://stavrosmak.github.io/Weather-Application-JS/",
+        "codeLink": "https://github.com/StavrosMak/Weather-Application-JS",
+        "languages": [
+            "Pure Javascript",
+            "HTML",
+            "CSS",
+            "API"
+         ],
+        "projectDescription": "No description is available for this project at the moment.",
+        "completed": "Sept, 2022"
+    },
+    {
         "title": "Concurrency Converter",
         "imageUrl": "project8.png",
         "imgPath": "ConcurrencyConverter-Images",
@@ -169,6 +238,6 @@
             "Challenge"
         ],
         "projectDescription": "No description is available for this project at the moment.",
-        "completed": "August, 2023"
+        "completed": "Dec, 2022"
     }
 ]
