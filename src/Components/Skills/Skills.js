@@ -21,7 +21,7 @@ export default function Skills() {
     };
   }, []);
 
-  const visibleSkills = showAllSkills ? iconData : iconData.slice(0, Math.ceil(iconData.length / 2 + 2));
+  const visibleSkills = showAllSkills ? iconData : iconData.slice(0, Math.ceil(iconData.length / 2 + 4));
 
   return (
     <div className="Skills" id="skills">

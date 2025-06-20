@@ -1,5 +1,26 @@
 [
     {
+        "url": "https://nextjs.org/",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/nextjs/nextjs-original.svg",
+        "alt": "NextJs",
+        "width": 40,
+        "height": 40
+    },
+        {
+        "url": "https://www.typescriptlang.org/",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/typescript/typescript-original.svg",
+        "alt": "typescript",
+        "width": 40,
+        "height": 40
+    },
+       {
+        "url": "https://reactjs.org/",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        "alt": "reactjs",
+        "width": 40,
+        "height": 40
+    },
+    {
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
         "alt": "javascript",
@@ -7,16 +28,16 @@
         "height": 40
     },
     {
-        "url": "https://nodejs.org",
-        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
-        "alt": "nodejs",
+        "url": "https://tailwindcss.com/",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/tailwindcss/tailwindcss-original.svg",
+        "alt": "tailwind",
         "width": 40,
         "height": 40
     },
     {
-        "url": "https://reactjs.org/",
-        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-        "alt": "reactjs",
+        "url": "https://nodejs.org",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+        "alt": "nodejs",
         "width": 40,
         "height": 40
     },

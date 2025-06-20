@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Projects.css';
 import { motion } from 'framer-motion';
 import Modal from './Modal';
@@ -47,9 +47,9 @@ export default function Projects() {
             transition={{ duration: 0.5, delay: index * 0.1 }}
         >
             <img src={require(`../../Assets/Images/${project.imageUrl}`)} alt={`Project ${index + 1}`} />
-            {/* {project['newProject:'] &&
+            {project['newProject:'] &&
             <span id='newProject'>New</span>
-            } */}
+            }
             <div className="project-languages">
                 {project.languages.map((language, langIndex) => (
                     <span key={langIndex} className="language-label">

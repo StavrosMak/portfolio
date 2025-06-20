@@ -10,7 +10,7 @@
 
 }
 
-#newProject{
+#newProject {
     position: relative;
     left: -27px;
     align-self: start;
@@ -136,14 +136,19 @@
 
 }
 
- 
+
 
 @media screen and (max-width:768px) {
 
     .Projects {
         padding: 0 30px;
     }
-  
+      #newProject {
+        left: 0px;
+        align-self: start;
+        top: -185px;
+    }
+
     .project-languages {
         padding: 0 10px;
         justify-content: center;
@@ -179,8 +184,8 @@
 
 @media screen and (max-width:390px) {
     #newProject {
-        left: -10px;
+        left: -2px;
         align-self: start;
-        top: -202px;
+        top: -165px;
     }
 }
