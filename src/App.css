@@ -32,4 +32,5 @@ button {
 
 .sectionHeader{
   font-size: 1.45rem !important;
+  text-decoration: underline;
 }

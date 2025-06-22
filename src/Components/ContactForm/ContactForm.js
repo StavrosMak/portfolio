@@ -84,8 +84,11 @@ export default function ContactForm() {
             mx: "auto",
             p: 2,
             borderRadius: "12px",
-            color: "cyan",
+            // color: "cyan",
+            textDecoration:"underline",
+            color:"#13bbff",
             boxShadow: 1,
+            borderColor:"#13bbff"
           }}
         >
           <Typography variant="h4" align="center" mb={2}>

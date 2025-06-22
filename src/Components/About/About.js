@@ -7,10 +7,9 @@ export default function About() {
     return (
         <div className="About" id='about'>
             <div className='aboutContent'>
-                <motion.div initial={{ opacity: 0, scale: 0, y: -50 }} whileInView={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.6 }} className='aboutIcon'>
-                    <img src={logo} alt='' />
-
-                </motion.div>
+                {/* <motion.div initial={{ opacity: 0, scale: 0, y: -50 }} whileInView={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.6 }} className='aboutIcon'> */}
+                    {/* <img src={logo} alt='' /> */}
+                {/* </motion.div> */}
                 <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} className='aboutText'>
                     <h3 className='sectionHeader'>Learn more about me</h3>
 
