@@ -4,12 +4,12 @@ import './ProfileDetails.css';
 
 const educationItems = [
   {
-    period: 'November 2024 - present',
+    period: 'November 2024 - August 2025',
     title: 'Military Service',
     description: 'Currently completing my compulsory Military Service',
   },
   {
-    period: 'September 2020 - present',
+    period: 'September 2020 - Expected 2025',
     title: 'Informatics and Computer Engineering',
     description: '5-year integrated bachelor’s & master’s degree - University of West Attica',
   },
@@ -34,34 +34,48 @@ const educationItems = [
     description: 'Aliveri, Greece',
   },
   {
-    period: '2018',
-    title: 'Accured English Degree',
+    period: 'Dec 2017',
+    title: 'Accredited English Degree',
     description: 'Aliveri, Greece',
   },
 ];
 
 export default function ProfileDetails() {
   return (
-    <motion.div initial={{ opacity: 0, y: -60 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}  className="ProfileDetails">
-      <h3 className='sectionHeader'>Education & Experience</h3>
-      <div className="ProfileDetailsContent">
-        {educationItems.map((item, index) => (
-          <div
-            key={index}
-            className={`${
-              index % 2 === 0 ? 'educationItem' : 'experienceItem'
-            }`}
-          >
-            <p>
-              <i className="far fa-calendar"></i> {item.period}
-            </p>
-            <h3>{item.title}</h3>
-            {item.institution && <p>{item.institution}</p>}
-            {item.position && <p>{item.position}</p>}
-            {item.description && <p>{item.description}</p>}
-          </div>
-        ))}
+    <div
+      className="profileDetails"
+      aria-label="Education and Experience Timeline"
+    >
+      <div className='timelineContainer'>
+
+        <h2 className='sectionHeader'>Education & Experience</h2>
+        <motion.section
+        
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="timeline">
+          {educationItems.map((item, index) => (
+            <motion.article
+
+              key={index}
+              className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}
+              initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.15 }}
+              viewport={{ once: false }}
+            >
+              <span className="timeline-dot" />
+              <div className="timeline-content">
+                <time className="period">{item.period}</time>
+                <h3>{item.title}</h3>
+                <p className="description">{item.description}</p>
+              </div>
+            </motion.article>
+          ))}
+        </motion.section>
       </div>
-    </motion.div>
+
+    </div>
   );
 }

@@ -82,16 +82,25 @@
  .BannerBtns {
 
      display: flex;
-     justify-content: space-between;
-     width: 350px;
+     /* justify-content: space-between; */
+     max-width: 550px;
+     width: 100%;
+     flex-wrap: wrap;
+     gap: 8px;
  }
 
  .BannerBtn {
-     width: 150px;
+     width: 160px;
      padding: .8em;
+     text-decoration: none;
       transition: background-color 0.3s;
       color: #fff;
+      text-align: center;
+      border: none;
  }
+html {
+  scroll-behavior: smooth;
+}
 
 
 

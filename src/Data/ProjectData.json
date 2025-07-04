@@ -1,8 +1,7 @@
 [
-    
     {
         "title": "UniFlow",
-        "newProject:":1,
+        "newProject:": 1,
         "imageUrl": "project15.png",
         "imgPath": "UniFlow-Images",
         "imgCount": 24,
@@ -19,28 +18,30 @@
             "NodeJS",
             "DnD",
             "MaterialUI",
-            "EmailJS"            
+            "EmailJS",
+            "2025"
         ],
-        "projectDescription": "I'm excited to introduce UniFlow Manager, a project management tool built with React that offers a unique and efficient way to manage university tasks and assignments. While it operates similarly to popular tools like Trello, UniFlow Manager stands out by integrating directly with your university account. Using web scraping technology, it automatically pulls course data from your university's website and creates customized boards to track exercises and deadlines. Currently supporting the University of West Attica (Uniwa), this feature will expand to more universities in the future, making it accessible to a wider student community.What truly sets UniFlow Manager apart is its collaboration features. Students can share their boards with others, enabling seamless teamwork on exercises and projects. The collaboration system includes role management, allowing users to be designated as either members or admins, each with specific permissions. This ensures a smooth and organized experience for group work, with admins having the ability to manage tasks, while members contribute to the progress.To further enhance teamwork, each exercise card includes a chat feature, so students can discuss their progress, ask questions, and share updates within the platform. This in-app communication eliminates the need for external chat tools, keeping everything organized in one place.Currently in beta, UniFlow Manager is a work in progress, and I'm actively seeking feedback from users to refine the platform and make it even better. Your input will be invaluable in shaping the tool into a comprehensive solution that fits the needs of students everywhere. While the tool is fully functional, some features are still being fine-tuned, and future updates will continue to improve the experience.Developed entirely by me, UniFlow Manager uses a range of modern technologies to deliver a full-stack experience. The front end is powered by ReactJS, while the back end uses NodeJS and Express for smooth operation. Data is managed using Supabase, and Clerk handles secure user authentication. For a responsive and user-friendly design, I've integrated MaterialUI, and DnD (Drag and Drop) functionality for easy task management. EmailJS ensures that users receive timely reminders and updates.Looking to the future, I plan to continue enhancing the platform by adding support for more universities, refining collaboration features, and improving the overall user experience based on the valuable feedback from the beta phase.",
-        "completed": "On going..."
+        "projectDescription": "I'm excited to introduce UniFlow Manager, my largest and most ambitious project yet.\n It's a a project management tool built with React that offers a unique and efficient way to manage university tasks and assignments.While it operates similarly to popular tools like Trello, UniFlow Manager stands out by integrating directly with your university account. \nUsing web scraping technology, it automatically pulls course data from your university's website and creates customized boards to track exercises and deadlines. Currently supporting the University of West Attica (Uniwa), this feature will expand to more universities in the future, making it accessible to a wider student community.What truly sets UniFlow Manager apart is its collaboration features. Students can share their boards with others, enabling seamless teamwork on exercises and projects.\n The collaboration system includes role management, allowing users to be designated as either members or admins, each with specific permissions. This ensures a smooth and organized experience for group work, with admins having the ability to manage tasks, while members contribute to the progress.To further enhance teamwork, each exercise card includes a chat feature, so students can discuss their progress, ask questions, and share updates within the platform. This in-app communication eliminates the need for external chat tools, keeping everything organized in one place.Currently in beta, UniFlow Manager is a work in progress, and I'm actively seeking feedback from users to refine the platform and make it even better. \nYour input will be invaluable in shaping the tool into a comprehensive solution that fits the needs of students everywhere. While the tool is fully functional, some features are still being fine-tuned, and future updates will continue to improve the experience.Developed entirely by me, UniFlow Manager uses a range of modern technologies to deliver a full-stack experience. The front end is powered by ReactJS, while the back end uses NodeJS and Express for smooth operation. Data is managed using Supabase, and Clerk handles secure user authentication. For a responsive and user-friendly design, I've integrated MaterialUI, and DnD (Drag and Drop) functionality for easy task management. EmailJS ensures that users receive timely reminders and updates.Looking to the future, I plan to continue enhancing the platform by adding support for more universities, refining collaboration features, and improving the overall user experience based on the valuable feedback from the beta phase.",
+        "completed": "2025"
     },
-     {
+    {
         "title": "StackNews",
         "imageUrl": "project10.png",
         "imgPath": "StackNews-Images",
-        "imgCount": 1,
+        "imgCount": 4,
         "presentationDemoLink": null,
         "liveDemoLink": null,
-        "codeLink": null,
+        "codeLink": "https://github.com/StavrosMak/StackNews",
         "languages": [
             "Nextjs",
             "Typescript",
             "Tailwind",
             "API",
-            "Cache"
+            "Cache",
+            "2025"
         ],
         "projectDescription": "Excited to unveil my inaugural Fullstack Project! 🎉🎉 Introducing an engaging Barbershop website offering customers a comprehensive view of services, shop details, and hassle-free appointment bookings.Throughout the development journey, I honed diverse skills, seamlessly integrating technologies such as React, Node.js, Express, and MySQL. Here's a glimpse of the milestones achieved:🎯 Established robust communication between frontend (React) and backend (Node.js, Express, MySQL).🎯 Expanded backend expertise, mastering operations like post, patch, put, delete, and optimizing data management with MySQL.🎯 Implemented user roles management, crafting distinct screens for users and admins.🎯 Ensured security with cryptographic measures, safeguarding sensitive user information.🎯 Delivered a user-friendly, responsive interface enriched with captivating animations and Material-UI for an enhanced user experience.And that's just the tip of the iceberg! Dive deeper into the project's intricacies through the video and code links below. Your feedback is invaluable – thank you for exploring!",
-        "completed": "January, 2023"
+        "completed": "January, 2025"
     },
     {
         "title": "Barbershop",
@@ -57,7 +58,8 @@
             "Express",
             "MySQL",
             "API",
-            "Framer Motion"
+            "Framer Motion",
+            "2023"
         ],
         "projectDescription": "Excited to unveil my inaugural Fullstack Project! 🎉🎉 Introducing an engaging Barbershop website offering customers a comprehensive view of services, shop details, and hassle-free appointment bookings.Throughout the development journey, I honed diverse skills, seamlessly integrating technologies such as React, Node.js, Express, and MySQL. Here's a glimpse of the milestones achieved:🎯 Established robust communication between frontend (React) and backend (Node.js, Express, MySQL).🎯 Expanded backend expertise, mastering operations like post, patch, put, delete, and optimizing data management with MySQL.🎯 Implemented user roles management, crafting distinct screens for users and admins.🎯 Ensured security with cryptographic measures, safeguarding sensitive user information.🎯 Delivered a user-friendly, responsive interface enriched with captivating animations and Material-UI for an enhanced user experience.And that's just the tip of the iceberg! Dive deeper into the project's intricacies through the video and code links below. Your feedback is invaluable – thank you for exploring!",
         "completed": "January, 2023"
@@ -74,7 +76,8 @@
             "ReactJS",
             "CSS",
             "MaterialUI",
-            "API"
+            "API",
+            "2023"
         ],
         "projectDescription": "Introducing UnQ Eshop, my latest ecommerce project which built using React! Throughout creating UnQ, I've learned and utilized various techniques and features that React offers. I will mention some of the most significant ones. I learned about React's reusability concept which allowed me to create components that could be easily repurposed, ensuring a consistent and efficient user interface.Also learned using built-in hooks and create custom hooks. After that, I learned how to implement a caching mechanism to store data consistently. Lastly, I can't overlook to mention one of the most valuable lessons I learned was the importance of responsive design. By harnessing the power of media queries and flexible layout techniques, UnQ now provides an optimal user experience on all devices, from large desktop screens to smaller smartphones. No matter where customers are browsing from, they can seamlessly access and interact with the site, ensuring maximum engagement and satisfaction. I'm excited to have acquired new knowledge and skills, further fueling my passion for web development. 🔥 🔥",
         "completed": "February, 2023"
@@ -91,7 +94,8 @@
             "Javascript",
             "HTML",
             "CSS",
-            "API"
+            "API",
+            "2023"
         ],
         "projectDescription": "Excited to introduce 'MovieVerse', my passion project dedicated to the world of cinema which was made with vanilla JavaScript!MovieVerse allows you to discover hidden cinematic gems and stay up-to-date with the latest masterpieces.🎬🍿During the process of creating it, not only I developed a deep understanding of fundamental JavaScript concepts but also improve my problem-solving skills. I learned to dynamically update UI elements using only JavaScript and also learned to interact with APIs and handle responses appropriately.Additionally,I implemented responsive design principles to ensure the MovieVerse website adapts beautifully to various screen sizes, making it accessible and user-friendly across different devices.",
         "completed": "March, 2023"
@@ -109,7 +113,8 @@
             "CSS",
             "RechartsJS",
             "MaterialUI",
-            "Template"
+            "Template",
+            "2023"
         ],
         "projectDescription": "Introducing the 'Economic Analytics Hub', a website I made using React to present Financial Data in a visual and engaging way.During this project, I learned to use 'Recharts' React library for creating and designing clear and effective data visualizations ensuring a smooth experience across different devices. Additionally,I have learned how to efficiently use Material UI to create a polished and user-friendly interface for data exploration.I was impressed by how I can present data in such a beautiful and clear way.",
         "completed": "April, 2023"
@@ -126,7 +131,8 @@
             "ReactJS",
             "CSS",
             "MaterialUI",
-            "Template"
+            "Template",
+            "2023"
         ],
         "projectDescription": "Excited to unveil my latest project – an immersive online experience for an authentic Italian restaurant! 🇮🇹✨ Step into the culinary world of LaPiazza, where the vibrant flavors of Italy come to life. This digital platform serves as a virtual gateway, inviting patrons to explore our diverse menu, discover the essence of each dish, and seamlessly place orders for a taste of Italy delivered to their doorstep. During the development process, I've seamlessly blended design and functionality, ensuring a user-friendly interface that captures the essence of our restaurant's charm. From interactive menus to seamless ordering, this website encapsulates the spirit of Italian gastronomy. Take a virtual stroll through our trattoria and explore the delicious offerings waiting to delight your senses. Buon viaggio culinario! 🍝🍷",
         "completed": "May, 2023"
@@ -143,7 +149,8 @@
             "MaterialUI",
             "Framer Motion",
             "EmailJS",
-            "API"
+            "API",
+            "2023"
         ],
         "projectDescription": "Check out the code for this website anytime you'd like. Feel free to take a look.",
         "completed": "June, 2023"
@@ -153,18 +160,20 @@
         "imageUrl": "project13.png",
         "imgPath": "HeroOfPrimeBattleground-Images",
         "imgCount": 4,
-        "codeLink": "https://github.com/StavrosMak/portfolio",
+        "codeLink": "https://github.com/StavrosMak/HeroOfPrime",
         "languages": [
             "Pure Javascript",
             "CaseStudy",
+            "HTML",
             "CSS",
             "Javascript",
-            "API"
+            "API",
+            "2023"
         ],
         "projectDescription": "A fast-paced battleground prototype built from a provided case study using pure JavaScript, CSS, and external APIs—no frameworks, just raw code. Developed to push the limits of vanilla JS while delivering a dynamic, interactive gameplay experience.",
         "completed": "June, 2023"
     },
-     {
+    {
         "title": "Dog Lover",
         "imageUrl": "project7.png",
         "imgPath": "DogLover-Images",
@@ -179,9 +188,10 @@
             "MaterialUI",
             "Template",
             "API",
-            "Challenge"
+            "Challenge",
+            "2023"
         ],
-        "projectDescription":"An early React 'Challenge' project where I focused on learning component structure, managing state, and working with libraries like Material UI.",
+        "projectDescription": "An early React 'Challenge' project where I focused on learning component structure, managing state, and working with libraries like Material UI.",
         "completed": "July, 2023"
     },
     {
@@ -196,8 +206,9 @@
             "Javascript",
             "HTML",
             "CSS",
-            "API"
-         ],
+            "API",
+            "2022"
+        ],
         "projectDescription": "WeatherApp is one of my first attempts at web development—built to explore core web technologies and real-time data handling.",
         "completed": "Sept, 2022"
     },
@@ -215,7 +226,8 @@
             "ReactJS Challenge",
             "MaterialUI",
             "Template",
-            "Challenge"
+            "Challenge",
+            "2022"
         ],
         "projectDescription": "One of my early projects with React and TypeScript—built to explore component-based architecture, state management, and type safety.",
         "completed": "Dec, 2022"

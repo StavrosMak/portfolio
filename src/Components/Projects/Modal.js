@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import './Modal.css';
 import { motion } from 'framer-motion';
 import skillsData from '../../Data/skillsData.json';
@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import PopupImg from "./PopupImg";
 export default function Modal({ closeModal, project }) {
     const [currentImage, setCurrentImage] = useState(1);
-    const [showPopup,setShowPopup]=useState(false);
+    const [showPopup, setShowPopup] = useState(false);
 
 
     const getIconsForProject = () => {
@@ -56,7 +56,7 @@ export default function Modal({ closeModal, project }) {
                         <AnimatePresence wait>
                             <motion.img
                                 key={currentImage}
-                                initial={{ opacity: 0}}
+                                initial={{ opacity: 0 }}
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.7 }}
@@ -93,13 +93,19 @@ export default function Modal({ closeModal, project }) {
 
                     </div>
                     <p className="projectDesc">
-                        {project.projectDescription}
+                        {project.projectDescription.split('\n').map((line, index) => (
+                            <span key={index}>
+                                {line}
+                                <br />
+                            </span>
+                        ))}
                     </p>
+
                     <p className="projectDate">Completed on: {project.completed}</p>
                     <div className="techStack">
                         <p className="techTitle">Technologies Used:</p>
                         <div className="techIcons">
-                        
+
                             <div className="techIcons">{getIconsForProject()}</div>
                         </div>
                     </div>
@@ -113,7 +119,7 @@ export default function Modal({ closeModal, project }) {
                     onClose={() => setShowPopup(false)}
                 />
             )}
-           
+
         </motion.div>
     )
 }

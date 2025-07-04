@@ -21,7 +21,7 @@ export default function Skills() {
     };
   }, []);
 
-  const visibleSkills = showAllSkills ? iconData : iconData.slice(0, Math.ceil(iconData.length / 2 + 4));
+  const visibleSkills = showAllSkills ? iconData : iconData.slice(0, Math.ceil(iconData.length / 2 + 6));
 
   return (
     <div className="Skills" id="skills">
@@ -42,16 +42,24 @@ export default function Skills() {
           </motion.div>
         ))}
       </div>
-      {!showAllSkills && (
-        <button className="SeeMoreButton" onClick={toggleSkillsVisibility}>
-          Show more
-        </button>
-      )}
-      {showAllSkills && (
-        <button className="SeeMoreButton" onClick={toggleSkillsVisibility}>
-          Show Lesss
-        </button>
-      )}
+     {!showAllSkills ? (
+  <button
+    className="SeeMoreButton"
+    onClick={toggleSkillsVisibility}
+    aria-label="Show more skills"
+  >
+    Show more
+  </button>
+) : (
+  <button
+    className="SeeMoreButton"
+    onClick={toggleSkillsVisibility}
+    aria-label="Show fewer skills"
+  >
+    Show less
+  </button>
+)}
+
     </div>
   );
 }

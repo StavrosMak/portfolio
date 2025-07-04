@@ -11,7 +11,7 @@ import { AnimatePresence } from "framer-motion";
 export default function Projects() {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedProject, setSelectedProject] = useState(false);
+    const [selectedProject, setSelectedProject] = useState(null);
 
     const openModal = (project) => {
         setSelectedProject(project);

@@ -6,15 +6,18 @@
     color: #13bbff;
     flex-direction: column;
     position: relative;
+    /* background:linear-gradient(to bottom, #22282f, #1c1f26); */
     z-index: 1;
+    margin-bottom: 250px;
 
 }
 
 #newProject {
-    position: relative;
-    left: -27px;
+    position: absolute;
+    /* left: -27px; */
     align-self: start;
-    top: -217px;
+    /* top: -217px; */
+    /* top: -185px; */
     transform: rotateZ(320deg);
     color: #13bbff;
     padding: 10px;
@@ -23,8 +26,8 @@
 }
 
 .project-card {
-    background-color: #1E1E1E;
-    background-color: #2a353b;
+    background-color: rgba(255, 255, 255, 0.05);
+    position: relative;
     color: #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -82,7 +85,9 @@
 .project-info h2 {
     /* font-size: 24px; */
     font-size: 1.35rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+        margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .project-languages {
@@ -92,6 +97,7 @@
     flex-wrap: wrap;
     gap: 5px;
     margin: 10px 0;
+    justify-content: center;
 }
 
 .language-label {
@@ -150,9 +156,9 @@
         padding: 0 30px;
     }
       #newProject {
-        left: 0px;
+        /* left: 0px; */
         align-self: start;
-        top: -185px;
+        /* top: -185px; */
     }
 
     .project-languages {
@@ -190,8 +196,15 @@
 
 @media screen and (max-width:390px) {
     #newProject {
-        left: -2px;
+        /* left: -2px; */
         align-self: start;
-        top: -165px;
+        /* top: -165px; */
     }
 }
+
+
+/*
+
+1st:linear-gradient(to bottom, #22282f, #1c1f26)
+
+*/

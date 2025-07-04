@@ -1,13 +1,11 @@
-import React from 'react';
 import './Banner.css';
-import logo from '../../Assets/Images/gitImg.png';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
-import FloatingImg from '../FloatingImg/FloatingImg'
 import { HashLink as Link } from 'react-router-hash-link';
 export default function Banner() {
+    const downloadUrl = "/Files/Makrygiannis_Stavros_CV.pdf"; // put your file path here (public folder or URL)
 
-    console.log('renders')
+    // console.log('renders')
     return (
         <div className="Banner" id='/'>
             <div className='BannerContent'>
@@ -35,8 +33,18 @@ export default function Banner() {
                             <i className="fa-brands fa-github"></i>              </a>
                     </div>
                     <div className='BannerBtns'>
-                        <Link smooth to='#about'> <button className='BannerBtn btn1'>About me </button></Link>
-                        <Link smooth to='#contact'> <button className='BannerBtn btn2'>Contact</button></Link>
+                        <a
+                            href={downloadUrl}
+                            download
+                            className='BannerBtn btn1' >
+                            Download Resume
+                        </a>
+                        <a href="#contact" className="BannerBtn btn2">
+                            Contact
+                        </a>
+
+                        {/* <Link smooth to='#contact'> <button className='BannerBtn btn2'>Contact</button></Link> */}
+                        {/* <Link smooth to='#download'> <button className='BannerBtn btn2'>Download</button></Link> */}
 
                     </div>
 

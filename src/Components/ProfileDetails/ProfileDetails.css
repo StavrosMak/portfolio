@@ -1,57 +1,156 @@
-.ProfileDetails {
-    max-width: 2500px;
-    color: #fff;
-    margin: 250px auto;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.timelineContainer {
+    font-family: 'Inter', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding:150px 20px;
+    color: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-
+    /* background: linear-gradient(to bottom, #22282f, #1c1f26); */
+}
+.profileDetails{
+    width: 100%;
+    /* background: linear-gradient(to bottom, #22282f, #1c1f26); */
 }
 
-.ProfileDetails h3 {
+.sectionHeader {
+    font-weight: 600;
+    font-size: 2rem;
     color: #13bbff;
-    /* font-size: 20px; */
-    font-size: 1.1rem;
-}
-.ProfileDetails > h3{
-    font-size: 1.4rem;
+    margin-bottom: 40px;
+    letter-spacing: 1.2px;
 }
 
-
-
-.ProfileDetailsContent {
-    width: max-content;
-    display: flex;
-    max-width: 1500px;
+.timeline {
+    position: relative;
     width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-    justify-content: space-between;
-    justify-content: center;
-}
-
-
-.educationItem,
-.experienceItem {
-    max-width: 470px;
-    width: 100%;
-    height: 150px;
-    border: 1px solid #2195f34f;
-    border-radius: 30px;
-    background-color: #37474f33;
-    padding: 30px;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
 }
 
-@media screen and (max-width:768px){
-    .ProfileDetailsContent{
-        flex-direction: column;
-        padding: 0 10px;
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    background: linear-gradient(180deg, #13bbff 0%, #2196f3 100%);
+    transform: translateX(-50%);
+    border-radius: 2px;
+    z-index: 0;
+}
+
+.timeline-item {
+    position: relative;
+    width: 45%;
+    background: #202c33;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 6px 15px rgba(19, 187, 255, 0.3);
+    transition: box-shadow 0.3s ease;
+    z-index: 1;
+}
+
+.timeline-item:hover {
+    box-shadow: 0 10px 25px rgba(19, 187, 255, 0.6);
+}
+
+.timeline-item.left {
+    align-self: flex-start;
+    margin-right: auto;
+    transform-origin: right center;
+}
+
+.timeline-item.right {
+    align-self: flex-end;
+    margin-left: auto;
+    transform-origin: left center;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 24px;
+    width: 18px;
+    height: 18px;
+    background: #13bbff;
+    border-radius: 50%;
+    border: 3px solid #202c33;
+    left: -9px;
+    z-index: 2;
+    box-shadow: 0 0 8px #13bbff88;
+}
+
+.timeline-item.right .timeline-dot {
+    left: auto;
+    right: -9px;
+}
+
+.period {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #82caff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.3rem;
+    color: #e0e0e0;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+/* Responsive for Mobile */
+
+@media screen and (max-width: 768px) {
+    .timeline {
+        padding-left: 0px; /* more space for the timeline line */
+        position: relative;
+        margin: 0;
+    }
+    .timeline::before {
+        left: 0px; /* move the line fully to the left */
+        height: 100%;
+        width: 3px;
+        transform: none; /* remove translate */
+    }
+    .timeline-item {
+        width: 80% !important; /* full width */
+        margin: 0 0 50px 15px !important; /* only left margin to clear line */
+        padding: 20px 5px !important;
+        border-radius: 12px;
+        align-self: flex-start !important;
+        transform-origin: left center !important;
+        box-shadow: 0 6px 15px rgba(19, 187, 255, 0.3);
+    }
+    .timeline-dot {
+        left: 0 !important; /* align dot with timeline line */
+        right: auto !important;
+        top: 0px;
+        width: 16px;
+        height: 16px;
+        border-width: 3px;
+        box-shadow: 0 0 6px #13bbffaa;
+    }
+    .period {
+        font-size: 0.9rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .description {
+        font-size: 0.95rem;
+        line-height: 1.4;
     }
 }

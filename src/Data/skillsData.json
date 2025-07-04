@@ -9,56 +9,63 @@
         {
         "url": "https://www.typescriptlang.org/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/typescript/typescript-original.svg",
-        "alt": "typescript",
+        "alt": "Typescript",
         "width": 40,
         "height": 40
     },
        {
         "url": "https://reactjs.org/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-        "alt": "reactjs",
+        "alt": "Reactjs",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-        "alt": "javascript",
+        "alt": "Javascript",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://tailwindcss.com/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/tailwindcss/tailwindcss-original.svg",
-        "alt": "tailwind",
+        "alt": "Tailwind",
+        "width": 40,
+        "height": 40
+    },
+    {
+        "url": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/dot-net/dot-net-original.svg",
+        "alt": "ASP.NET",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://nodejs.org",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
-        "alt": "nodejs",
+        "alt": "Nodejs",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://www.mysql.com/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        "alt": "mysql",
+        "alt": "MySQL",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://git-scm.com/",
         "imgSrc": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-        "alt": "git",
+        "alt": "Git",
         "width": 40,
         "height": 40
     },
     { 
         "url": "https://clerk.com/",
         "imgSrc": "https://raw.githubusercontent.com/pheralb/svgl/main/static/library/clerk-light.svg",
-        "alt": "clerk",
+        "alt": "Clerk",
         "width": 40,
         "height": 40
     },
@@ -79,14 +86,14 @@
     {
         "url": "https://expressjs.com",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
-        "alt": "express",
+        "alt": "Express",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://www.chartjs.org",
         "imgSrc": "https://www.chartjs.org/media/logo-title.svg",
-        "alt": "rechartjs",
+        "alt": "Rechartjs",
         "width": 40,
         "height": 40
     },
@@ -112,6 +119,13 @@
         "height": 40
     },
     {
+        "url": "https://sass-lang.com/",
+        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sass/sass-original.svg",
+        "alt": "SaSS",
+        "width": 40,
+        "height": 40
+    },
+    {
         "url": "https://www.w3schools.com/css/",
         "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
         "alt": "CSS",
@@ -121,14 +135,14 @@
     {
         "url": "https://azure.microsoft.com/en-in/",
         "imgSrc": "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
-        "alt": "azure",
+        "alt": "Azure",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://www.w3schools.com/cpp/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
-        "alt": "cplusplus",
+        "alt": "C++",
         "width": 40,
         "height": 40
     },
@@ -136,21 +150,21 @@
     {
         "url": "https://www.w3.org/html/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
-        "alt": "html",
+        "alt": "HTML",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://www.java.com",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        "alt": "java",
+        "alt": "Java",
         "width": 40,
         "height": 40
     },
     {
         "url": "https://www.linux.org/",
         "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
-        "alt": "linux",
+        "alt": "Linux",
         "width": 40,
         "height": 40
     }
