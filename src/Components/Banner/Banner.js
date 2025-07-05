@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
 import { HashLink as Link } from 'react-router-hash-link';
 export default function Banner() {
-    const downloadUrl = "/Files/Makrygiannis_Stavros_CV.pdf"; // put your file path here (public folder or URL)
+    const downloadUrl = "portfolio/Files/Makrygiannis_Stavros_CV.pdf"; // put your file path here (public folder or URL)
 
     // console.log('renders')
     return (
