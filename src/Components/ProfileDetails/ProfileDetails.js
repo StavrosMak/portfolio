@@ -4,6 +4,11 @@ import './ProfileDetails.css';
 
 const educationItems = [
   {
+    period: 'September 2025 - Present',
+    title: 'RenderSimple - External Parter at Eurobank',
+    description: 'Frontend Developer',
+  },
+  {
     period: 'November 2024 - August 2025',
     title: 'Military Service',
     description: 'Currently completing my compulsory Military Service',
