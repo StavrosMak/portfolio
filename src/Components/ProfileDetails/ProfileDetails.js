@@ -14,11 +14,6 @@ const educationItems = [
     description: 'Currently completing my compulsory Military Service',
   },
   {
-    period: 'September 2020 - Expected 2025',
-    title: 'Informatics and Computer Engineering',
-    description: '5-year integrated bachelor’s & master’s degree - University of West Attica',
-  },
-  {
     period: 'November 2023 - November 2024',
     title: 'Prime Educational Software',
     description: 'Frontend Developer',
@@ -32,6 +27,11 @@ const educationItems = [
     period: 'October 2021 - December 2021',
     title: 'Hellenic Statistical Authority',
     description: 'Census Employee',
+  },
+  {
+    period: 'September 2020 - Expected 2025',
+    title: 'Informatics and Computer Engineering',
+    description: '5-year integrated bachelor’s & master’s degree - University of West Attica',
   },
   {
     period: 'June 2020',
