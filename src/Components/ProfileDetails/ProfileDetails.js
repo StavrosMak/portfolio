@@ -5,7 +5,7 @@ import './ProfileDetails.css';
 const educationItems = [
   {
     period: 'September 2025 - Present',
-    title: 'RenderSimple - External Parter at Eurobank',
+    title: 'RenderSimple - External Partner at Eurobank',
     description: 'Frontend Developer',
   },
   {
